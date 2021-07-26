@@ -45,6 +45,11 @@ body {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.form-group {
+ margin: 0 auto 1.25rem auto;
+ padding: 0.25rem;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -89,12 +94,6 @@ h1 {
   font-weight: bold;
 }
 
-@media (min-width: 480px) {
-  form {
-    padding: 2.5rem;
-  }
-}
-
 form {
   background: var(--color-darkblue-alpha);
   padding: 2.5rem 0.625rem;
@@ -109,5 +108,17 @@ form {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
   }
 }
