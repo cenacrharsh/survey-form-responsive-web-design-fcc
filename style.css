@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 * *,
 *::before,
 *::after {
@@ -46,8 +48,8 @@ body {
 }
 
 .form-group {
- margin: 0 auto 1.25rem auto;
- padding: 0.25rem;
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
 }
 
 body::before {
